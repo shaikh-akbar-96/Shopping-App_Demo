@@ -1,0 +1,19 @@
+.add-items {
+  width: 400px;
+  margin: 10px auto;
+  .buy-items {
+    width: 350px;
+    padding: 5px 0;
+    display: block;
+    float: left;
+    border-radius: 0;
+    border: 1px solid #aaa;
+    text-align: center;
+  }
+  .buy-button {
+    background-color: $bg-mid-purple;
+    color: #fff;
+    border: none;
+    padding: 6px;
+  }
+}

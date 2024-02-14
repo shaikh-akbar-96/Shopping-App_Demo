@@ -1,16 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  height: 100vh;
   background: rgb(11, 16, 27);
   background: linear-gradient(
     90deg,
     rgba(11, 16, 27, 1) 0%,
     rgba(68, 198, 198, 1) 100%
   );
+  font-family: "Noto Sans", sans-serif;
   color: #fff;
 }

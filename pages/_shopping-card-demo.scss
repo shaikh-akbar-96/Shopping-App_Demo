@@ -1,0 +1,55 @@
+h1,
+h2 {
+  font-weight: normal;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  padding: 10px 0;
+  background-color: $bg-mid-purple;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  color: #fff;
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 3px 3px 3px 3px #aaa;
+}
+.shopping-body {
+  padding: 20px 0;
+}
+
+.grocery-list {
+  margin: 20px;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      margin: 30px 0;
+      border-left: 5px solid #aaa;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .delete {
+        background-color: $bg-mid-purple;
+        padding: 8px;
+        cursor: pointer;
+      }
+      &:hover {
+        border-color: $bg-mid-purple;
+      }
+    }
+  }
+}
