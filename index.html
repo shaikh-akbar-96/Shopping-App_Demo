@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <script src="./index.js" defer></script>
+    <title>Shopping-App-Demo</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div id="page-top">
+          <h1>Aashu web dev shopping list</h1>
+          <p>My Shopping List</p>
+          <form id="search-item">
+            <input type="text" placeholder="search items..." />
+            <div class="check">
+              <label for="hide">Hide List</label>
+              <input type="checkbox" id="hide" />
+            </div>
+          </form>
+        </div>
+      </header>
+      <form action="" id="add-items">
+        <input type="text" placeholder="what do you want to buy?" />
+        <button>add</button>
+      </form>
+      <div id="grocery-list">
+        <h2>Items To Buy</h2>
+        <ul>
+          <li>
+            <span class="item">Milk</span>
+            <span class="delete">Delete</span>
+          </li>
+          <li>
+            <span class="item">Sugar</span>
+            <span class="delete">Delete</span>
+          </li>
+          <li>
+            <span class="item">Pizza</span>
+            <span class="delete">Delete</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
